@@ -46,7 +46,7 @@ def setGlobalVars(event):
     globalVars['InstanceTagNoReboot'] = "AutoDigiNoReboot"
 
     try:
-        globalVars['Owner'] = event.get('Owner', "Miztiik")
+        globalVars['Owner'] = event.get('Owner', "Suresh")
         globalVars['Environment'] = event.get('Environment', "Test")
         globalVars['REGION_NAME'] = event.get('REGION_NAME', "eu-central-1")
         globalVars['tagName'] = event.get('tagName', "Serverless-AMI-Baker-Bot")
